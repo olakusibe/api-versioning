@@ -5,12 +5,6 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Read up
-// https://github.com/dotnet/aspnet-api-versioning/issues/929
-// https://github.com/dotnet/aspnet-api-versioning/wiki/API-Version-Conventions#version-by-namespace-convention
-// https://code-maze.com/aspnetcore-api-versioning/#:~:text=as%20%E2%80%9C%E2%80%98v%E2%80%99major%5B.minor%5D%5B%2Dstatus%5D%E2%80%9D.
-
-
 // Add services to the container.
 builder.Services.AddApiVersioning(opts =>
 {
